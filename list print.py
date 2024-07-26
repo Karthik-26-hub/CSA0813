@@ -1,0 +1,22 @@
+a=[1,2,3,4,5]
+b=[6,7,8,9,10]
+type(a)
+type(b)
+print(a)
+#append
+a.append(6)
+print(a)
+#remove
+a.remove(4)
+print(a)
+#indexing
+print(a[2])
+#slicing
+print(a[0:3])
+#repetition
+print(a*3)
+#concatation
+print(a+b)
+#update list
+b[4]=20
+print(b)
