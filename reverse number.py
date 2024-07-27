@@ -1,7 +1,11 @@
-n=12234
-reversen=0
+n=12121
+m=n
+reverse=0
 while(n!=0):
     digit=n%10
-    reversen=reversen*10+digit
+    reverse=reverse*10+digit
     n=n//10
-print(reversen)
+if(m==reverse):
+ print("palindrome")
+else:
+ print("not palindrome")

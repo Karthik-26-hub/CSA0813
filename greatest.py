@@ -1,6 +1,6 @@
-a=10
-b=20
+a=int(input("enter the first value:"))
+b=int(input("enter the second value:"))
 if(a>b):
-    print(a)
+    print("{} is greater".format(a))
 else:
-    print(b)
+    print("{} is greater".format(b))
